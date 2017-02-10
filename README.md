@@ -1,8 +1,8 @@
-# youtubeCarousel
+# youTubeCarousel
 Don't use Image carousels if you can use video!
 
-#required
+#Required
   - video id 
-  eg https://www.youtube.com/watch?v=D_rkOdie5KY videoId is anything that comes after "v=" in this case 
+  eg https://www.youtube.com/watch?v=VtZ--CpppG0 videoId is anything that comes after "v=" in this case 
 
-#D_rkOdie5KY
+##VtZ--CpppG0
