@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+	<title>YouTubeCarousel</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="js/youtubecarousel.js"></script>
+
+	<style>
+		body
+		{
+			padding: 0px 0px;
+			margin: 0px 0px;
+			background-color: black;
+		}
+		i
+		{
+			color:rgba(255,0,0,1);
+			font-size: 120%;
+		}
+		#prev,#next
+		{
+			padding:10px 10px;
+			border-radius:25px;
+			top:47.5%;
+			position:absolute;
+			z-index:10;
+			border:none;
+			background-color:rgba(255,255,255,0.5);
+		}
+		#prev
+		{
+			left:10px;
+		}
+		#prev:hover
+		{
+			background-color:rgba(255,255,255,1);
+		}
+		#next
+		{
+			right:10px;
+		}
+		#next:hover
+		{
+			background-color:rgba(255,255,255,1);
+		}
+	</style>
+</head>
+<body>
+	<nav><a href="#"></a></nav>
+	<center>
+		<button onclick='prev();' id='prev'><i class="material-icons">navigate_before</i></button>
+		<iframe frameborder="0" id='frame' allowfullscreen></iframe>
+		<button onclick='next();' id='next'><i class="material-icons">navigate_next</i></button>
+	</center>
+	<div id="anyOtherContent">
+		
+	</div>
+</body>
+</html>
